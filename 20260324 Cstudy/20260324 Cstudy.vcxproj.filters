@@ -24,5 +24,8 @@
     <ClCompile Include="usingtimecheck.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="age.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
