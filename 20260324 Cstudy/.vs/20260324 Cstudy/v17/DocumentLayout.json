@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\C-Study\\20260324 Cstudy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BA231327-3DC9-4002-98A0-E65ACC8FAFD2}|20260324 Cstudy.vcxproj|C:\\Users\\user\\Desktop\\C-Study\\20260324 Cstudy\\usingtimecheck.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA231327-3DC9-4002-98A0-E65ACC8FAFD2}|20260324 Cstudy.vcxproj|solutionrelative:usingtimecheck.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA231327-3DC9-4002-98A0-E65ACC8FAFD2}|20260324 Cstudy.vcxproj|C:\\Users\\user\\Desktop\\C-Study\\20260324 Cstudy\\test2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA231327-3DC9-4002-98A0-E65ACC8FAFD2}|20260324 Cstudy.vcxproj|solutionrelative:test2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA231327-3DC9-4002-98A0-E65ACC8FAFD2}|20260324 Cstudy.vcxproj|C:\\Users\\user\\Desktop\\C-Study\\20260324 Cstudy\\test1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BA231327-3DC9-4002-98A0-E65ACC8FAFD2}|20260324 Cstudy.vcxproj|solutionrelative:test1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "usingtimecheck.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C-Study\\20260324 Cstudy\\usingtimecheck.c",
+              "RelativeDocumentMoniker": "usingtimecheck.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C-Study\\20260324 Cstudy\\usingtimecheck.c",
+              "RelativeToolTip": "usingtimecheck.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-24T06:24:37.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test2.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C-Study\\20260324 Cstudy\\test2.c",
+              "RelativeDocumentMoniker": "test2.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C-Study\\20260324 Cstudy\\test2.c",
+              "RelativeToolTip": "test2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-24T05:50:03.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "test1.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C-Study\\20260324 Cstudy\\test1.c",
               "RelativeDocumentMoniker": "test1.c",
               "ToolTip": "C:\\Users\\user\\Desktop\\C-Study\\20260324 Cstudy\\test1.c",
               "RelativeToolTip": "test1.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-24T04:29:27.102Z",
               "EditorCaption": ""
