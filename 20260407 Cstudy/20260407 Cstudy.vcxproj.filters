@@ -18,5 +18,17 @@
     <ClCompile Include="15.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="goto.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5-8.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6-1 for.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="for output practice.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

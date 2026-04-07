@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5B21D8DB-72D0-4EE1-A020-62D8CF487989}|20260407 Cstudy.vcxproj|C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\for output practice.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5B21D8DB-72D0-4EE1-A020-62D8CF487989}|20260407 Cstudy.vcxproj|solutionrelative:for output practice.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B21D8DB-72D0-4EE1-A020-62D8CF487989}|20260407 Cstudy.vcxproj|C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\goto.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5B21D8DB-72D0-4EE1-A020-62D8CF487989}|20260407 Cstudy.vcxproj|solutionrelative:goto.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B21D8DB-72D0-4EE1-A020-62D8CF487989}|20260407 Cstudy.vcxproj|C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\6-1 for.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5B21D8DB-72D0-4EE1-A020-62D8CF487989}|20260407 Cstudy.vcxproj|solutionrelative:6-1 for.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B21D8DB-72D0-4EE1-A020-62D8CF487989}|20260407 Cstudy.vcxproj|C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\5-8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5B21D8DB-72D0-4EE1-A020-62D8CF487989}|20260407 Cstudy.vcxproj|solutionrelative:5-8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B21D8DB-72D0-4EE1-A020-62D8CF487989}|20260407 Cstudy.vcxproj|C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\15.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5B21D8DB-72D0-4EE1-A020-62D8CF487989}|20260407 Cstudy.vcxproj|solutionrelative:15.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,17 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "goto.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\goto.c",
+              "RelativeDocumentMoniker": "goto.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\goto.c",
+              "RelativeToolTip": "goto.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-04-07T05:24:16.187Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "for output practice.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\for output practice.c",
+              "RelativeDocumentMoniker": "for output practice.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\for output practice.c",
+              "RelativeToolTip": "for output practice.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-04-07T07:36:41.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "6-1 for.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\6-1 for.c",
+              "RelativeDocumentMoniker": "6-1 for.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\6-1 for.c",
+              "RelativeToolTip": "6-1 for.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-04-07T06:44:28.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "5-8.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\5-8.c",
+              "RelativeDocumentMoniker": "5-8.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\5-8.c",
+              "RelativeToolTip": "5-8.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-04-07T05:53:59.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "15.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\15.c",
               "RelativeDocumentMoniker": "15.c",
               "ToolTip": "C:\\Users\\user\\Desktop\\C-Study\\20260407 Cstudy\\15.c",
               "RelativeToolTip": "15.c",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-04-07T04:14:03.246Z",
               "EditorCaption": ""
