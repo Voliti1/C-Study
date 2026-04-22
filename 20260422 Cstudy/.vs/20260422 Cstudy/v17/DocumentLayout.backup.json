@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\C-Study\\20260422 Cstudy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D98FB8-E036-446D-8E44-106C6AB305BD}|20260422 Cstudy.vcxproj|C:\\Users\\user\\Desktop\\C-Study\\20260422 Cstudy\\stringinput.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3D98FB8-E036-446D-8E44-106C6AB305BD}|20260422 Cstudy.vcxproj|solutionrelative:stringinput.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "stringinput.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C-Study\\20260422 Cstudy\\stringinput.c",
+              "RelativeDocumentMoniker": "stringinput.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C-Study\\20260422 Cstudy\\stringinput.c",
+              "RelativeToolTip": "stringinput.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-04-22T07:56:02.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

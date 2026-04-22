@@ -14,9 +14,9 @@ int main()
 	int pig_weight = 0;
 	int daily_total = 0;
 	int count = 0;
-	const TOTALWEIGHT = 5000;
+	const int TOTALWEIGHT = 5000;
 
-for(daily_total = 0; daily_total < TOTALWEIGHT;)
+for(; daily_total < TOTALWEIGHT;)
 {
 	printf("돼지 무게를 입력해주세요 : ");
 	scanf("%d", &pig_weight);
