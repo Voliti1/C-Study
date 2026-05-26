@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{6ADCE9D6-960D-4DA9-A004-A188C47ACD1F}|20260519 C Study.vcxproj|solutionrelative:20260519_3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ADCE9D6-960D-4DA9-A004-A188C47ACD1F}|20260519 C Study.vcxproj|C:\\Users\\user\\Desktop\\C-Study\\20260519 C Study\\20260519_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6ADCE9D6-960D-4DA9-A004-A188C47ACD1F}|20260519 C Study.vcxproj|solutionrelative:20260519_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6ADCE9D6-960D-4DA9-A004-A188C47ACD1F}|20260519 C Study.vcxproj|C:\\Users\\user\\Desktop\\C-Study\\20260519 C Study\\caldef.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ADCE9D6-960D-4DA9-A004-A188C47ACD1F}|20260519 C Study.vcxproj|solutionrelative:caldef.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6ADCE9D6-960D-4DA9-A004-A188C47ACD1F}|20260519 C Study.vcxproj|C:\\Users\\user\\Desktop\\C-Study\\20260519 C Study\\20260519_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6ADCE9D6-960D-4DA9-A004-A188C47ACD1F}|20260519 C Study.vcxproj|solutionrelative:20260519_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCE9D6-960D-4DA9-A004-A188C47ACD1F}|20260519 C Study.vcxproj|C:\\Users\\user\\Desktop\\C-Study\\20260519 C Study\\20260519_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ADCE9D6-960D-4DA9-A004-A188C47ACD1F}|20260519 C Study.vcxproj|solutionrelative:20260519_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "caldef.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C-Study\\20260519 C Study\\caldef.c",
+              "RelativeDocumentMoniker": "caldef.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C-Study\\20260519 C Study\\caldef.c",
+              "RelativeToolTip": "caldef.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-26T04:35:36.765Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,14 +49,14 @@
               "RelativeDocumentMoniker": "20260519_3.c",
               "ToolTip": "C:\\Users\\user\\Desktop\\C-Study\\20260519 C Study\\20260519_3.c",
               "RelativeToolTip": "20260519_3.c",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-05-19T07:47:49.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "20260519_2.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C-Study\\20260519 C Study\\20260519_2.c",
               "RelativeDocumentMoniker": "20260519_2.c",
