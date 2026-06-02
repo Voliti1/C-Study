@@ -1,0 +1,4 @@
+﻿  20260602_1_sturctversion.c
+C:\Users\user\Desktop\C-Study\20260602 Cstudy\20260602_1_sturctversion.c(10,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Student' 왼쪽은 무시됩니다.
+C:\Users\user\Desktop\C-Study\20260602 Cstudy\20260602_1_sturctversion.c(14,7): warning C4101: 'buffer2' :참조되지 않은 지역 변수입니다.
+  20260602 Cstudy.vcxproj -> C:\Users\user\Desktop\C-Study\20260602 Cstudy\x64\Debug\20260602 Cstudy.exe
