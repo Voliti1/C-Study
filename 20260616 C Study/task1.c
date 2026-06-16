@@ -14,7 +14,9 @@ typedef struct {
 head_point* create_head(void);
 void node_Append(head_point* head);
 void node_Search(head_point* head);
-void node_Output(head_point* head);
+void node_Insert(head_point* head);
+void node_Delete(head_point* head);
+void allnode_Print(head_point* head);
 
 int num = 0;
 int in_data = 1;
@@ -23,21 +25,21 @@ int main() {
 	head_point* head = create_head();
 
 	while (num != 6) {
-		printf("1.노드 추가\n2.데이터 검색\n3.노드 삽입\n4.노드 삭제\n5.출력\n6.종료\n");
+		printf("=== 기능 목록 ===\n1.노드 추가\n2.데이터 검색\n3.노드 삽입\n4.노드 삭제\n5.전체 노드 출력\n6.종료\n");
 		printf("번호를 입력해 주세요 : ");
 		scanf_s("%d", &num);
-		printf("\n\n");
+		printf("\n");
 		switch (num) {
 		case 1:
-			node_Append(head); break; // 노드 추가
+			node_Append(head); break;
 		case 2:
-			printf("데이터 검색.\n"); break;
+			node_Search(head); break;
 		case 3:
-			printf("노드 삽입.\n"); break;
+			node_Insert(head); break;
 		case 4:
-			printf("노드 삭제.\n"); break;
+			node_Delete(head); break; 
 		case 5:
-			node_output(head); break; // 출력
+			allnode_Print(head); break;
 		case 6:
 			printf("종료합니다.\n"); break;
 		}
@@ -83,7 +85,47 @@ void node_Append(head_point* head) {
 	}
 }
 
-void node_output(head_point* head) {
+void node_Search(head_point* head){
+	node* temp;
+	int check = 0;
+	int input = 0;
+	
+	printf("검색하실 값을 입력해주세요 : ");
+	scanf_s("%d", &input);
+
+	if (head->point == NULL){ 
+		printf("리스트가 존재하지 않아 검색을 진행할 수 없습니다."); 
+
+	}
+	else {
+		temp = head->point;
+		while(temp != NULL){
+			if (input == temp->data) { 
+				check = 1;
+				printf("주소 %p에 값 %d이/가 저장되어 있습니다.\n", temp, temp->data); 
+				break;
+			}				
+			else {
+				temp = temp->next;
+			}				
+		}	
+		if (check == 0) {
+			printf("입력하신 값을 리스트에서 찾을 수 없습니다.\n");
+		}
+	}
+}
+
+void node_Insert(head_point* head) {
+	node* temp;
+
+	
+}
+
+void node_Delete(head_point* head) {
+	node* temp;
+}
+
+void allnode_Print(head_point* head) {
 	node* temp;
 
 	if (head->point == NULL) {
