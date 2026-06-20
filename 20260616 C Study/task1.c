@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <malloc.h>
+#include <stdlib.h>
 
 typedef struct Node {
 	int data;
@@ -26,7 +27,7 @@ int main() {
 
 	while (num != 6) {
 		printf("=== 기능 목록 ===\n1.노드 추가\n2.데이터 검색\n3.노드 삽입\n4.노드 삭제\n5.전체 노드 출력\n6.종료\n");
-		printf("번호를 입력해 주세요 : ");
+		printf("사용하실 기능 번호를 입력해 주세요 : ");
 		scanf_s("%d", &num);
 		printf("\n");
 		switch (num) {
@@ -90,14 +91,14 @@ void node_Search(head_point* head){
 	int check = 0;
 	int input = 0;
 	
-	printf("검색하실 값을 입력해주세요 : ");
-	scanf_s("%d", &input);
-
 	if (head->point == NULL){ 
-		printf("리스트가 존재하지 않아 검색을 진행할 수 없습니다."); 
+		printf("노드가 존재하지 않아 검색을 진행할 수 없습니다.\n1. 노드 추가를 통해 노드를 생성 후 사용해주세요.\n\n"); 
 
 	}
 	else {
+		printf("검색하실 값을 입력해주세요 : ");
+		scanf_s("%d", &input);
+
 		temp = head->point;
 		while(temp != NULL){
 			if (input == temp->data) { 
@@ -117,26 +118,165 @@ void node_Search(head_point* head){
 
 void node_Insert(head_point* head) {
 	node* temp;
+	node* prev;
+	node* buffer;
+	node* newNode;
 
-	
+	int count = 1;
+	int input = 0;
+	int inputloc = 0;
+
+	if (head->point == NULL) {
+		printf("노드가 존재하지 않아 노드 삽입을 진행할 수 없습니다.\n1. 노드 추가를 통해 노드를 생성 후 사용해주세요.\n\n");
+		return;
+	}
+	else {
+
+		temp = head->point;
+		printf("노드번호  현재 주소		값	다음 주소\n");
+		while (temp != NULL) {
+			printf("%d	  %p	%d	%p\n", count, temp, temp->data, temp->next);
+			temp = temp->next;
+			count++;
+		}
+
+		while (inputloc < 1 || inputloc > count)
+		{
+			printf("\n값을 넣으실 노드번호를 입력해주세요 : ");
+			scanf_s("%d", &inputloc);
+
+			if (inputloc < 1 || inputloc > count)
+				printf("목록에 있는 노드 번호만 입력해주세요.");
+		}
+		printf("넣으실 값을 입력해주세요 : ");
+		scanf_s("%d", &input);
+
+		count = 1;
+
+		temp = head->point;
+		prev = head->point;
+
+		while (temp != NULL) {
+			if (count == inputloc) {
+
+				newNode = (node*)malloc(sizeof(node));
+				newNode->data = input;
+
+				if(temp == head->point){
+					buffer = head->point;
+					head->point = newNode;					
+					newNode->next = buffer;
+				}
+				else {
+					buffer = prev->next;
+					prev->next = newNode;
+					newNode->next = buffer;
+				}
+						
+				printf("노드 번호 %d에 값 %d을/를 삽입하였습니다.\n", count, input);
+
+				count = 1;
+				temp = head->point;
+				printf("노드번호  현재 주소		값	다음 주소\n");
+				while (temp != NULL) {
+					printf("%d	  %p	%d	%p\n", count, temp, temp->data, temp->next);
+					temp = temp->next;
+					count++;
+				}
+				break;
+
+			}
+			else {
+				prev = temp;
+				temp = temp->next;
+				count++;
+			}
+		}
+
+	}
 }
 
 void node_Delete(head_point* head) {
 	node* temp;
+	node* prev;
+	node* buffer;
+
+	int count = 1;
+	int del = 0;
+	int delloc = 0;
+
+	if (head->point == NULL) {
+		printf("노드가 존재하지 않아 삭제를 진행할 수 없습니다.\n1. 노드 추가를 통해 노드를 생성 후 사용해주세요.\n\n");
+	}
+	else {
+		temp = head->point;
+
+		printf("노드번호  현재 주소		값	다음 주소\n");
+		while (temp != NULL) {
+			printf("%d	  %p	%d	%p\n", count, temp, temp->data, temp->next);
+			temp = temp->next;
+			count++;
+		}
+
+		while (delloc < 1 || delloc > count)
+		{
+			printf("\n삭제하실 노드번호를 입력해주세요 : ");
+			scanf_s("%d", &delloc);
+
+			if (delloc < 1 || delloc > count)
+				printf("목록에 있는 노드 번호만 입력해주세요.");
+		}
+
+		count = 1;
+		temp = head->point;
+		prev = head->point;
+		
+		while (temp != NULL) {
+			if (count == delloc) {
+
+				if (temp == head->point) {
+					head->point = temp->next;
+				}
+				else {
+					prev->next = temp->next;
+				}
+
+				printf("%d번 노드를 삭제하였습니다.\n", count);
+
+				count = 1;
+				temp = head->point;
+				printf("노드번호  현재 주소		값	다음 주소\n");
+				while (temp != NULL) {
+					printf("%d	  %p	%d	%p\n", count, temp, temp->data, temp->next);
+					temp = temp->next;
+					count++;
+				}
+				break;
+
+			}
+			else {
+				prev = temp;
+				temp = temp->next;
+				count++;
+			}
+		}
+	}
 }
 
 void allnode_Print(head_point* head) {
 	node* temp;
+	int count = 1;
 
 	if (head->point == NULL) {
-		printf("출력할 내용이 없습니다.\n");
+		printf("노드가 존재하지 않아 출력할 내용이 없습니다.\n1. 노드 추가를 통해 노드를 생성 후 사용해주세요.\n\n");
 	}
 	else {
 		temp = head->point;
-		printf("현재 주소		값	다음 주소\n");
+		printf("노드번호  현재 주소		값	다음 주소\n");
 		while (temp != NULL) {
-			printf("%p	%d	%p\n", temp, temp->data, temp->next);
+			printf("%d	  %p	%d	%p\n", count, temp, temp->data, temp->next);
 			temp = temp->next;
+			count++;
 		}
 	}
 }
