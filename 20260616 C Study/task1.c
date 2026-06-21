@@ -26,6 +26,8 @@ int main() {
 	head_point* head = create_head();
 
 	while (num != 6) {
+		system("cls");
+
 		printf("=== 기능 목록 ===\n1.노드 추가\n2.데이터 검색\n3.노드 삽입\n4.노드 삭제\n5.전체 노드 출력\n6.종료\n");
 		printf("사용하실 기능 번호를 입력해 주세요 : ");
 		scanf_s("%d", &num);
@@ -43,6 +45,13 @@ int main() {
 			allnode_Print(head); break;
 		case 6:
 			printf("종료합니다.\n"); break;
+		default:
+			printf("올바른 번호를 입력해주세요.\n"); break;
+		}
+
+		if (num != 6) {
+			printf("\n");
+			system("pause"); // "계속하려면 아무 키나 누르십시오 . . ." 출력 및 대기
 		}
 	}
 	
@@ -90,6 +99,7 @@ void node_Search(head_point* head){
 	node* temp;
 	int check = 0;
 	int input = 0;
+	int count = 1;
 	
 	if (head->point == NULL){ 
 		printf("노드가 존재하지 않아 검색을 진행할 수 없습니다.\n1. 노드 추가를 통해 노드를 생성 후 사용해주세요.\n\n"); 
@@ -103,11 +113,12 @@ void node_Search(head_point* head){
 		while(temp != NULL){
 			if (input == temp->data) { 
 				check = 1;
-				printf("주소 %p에 값 %d이/가 저장되어 있습니다.\n", temp, temp->data); 
+				printf("노드 번호 %d번 주소 %p에 값 %d이/가 저장되어 있습니다.\n", count, temp, temp->data); 
 				break;
 			}				
 			else {
 				temp = temp->next;
+				count++;
 			}				
 		}	
 		if (check == 0) {
